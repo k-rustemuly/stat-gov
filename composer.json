@@ -1,0 +1,17 @@
+{
+    "name": "k-rustemuly/stat-gov",
+    "description": "Library for parsing data from stat.gov.kz Search for a legal entity or individual entrepreneur in Kazakhstan ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Osmanov Kuanysh",
+            "email": "developerandroidkz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stat\\Gov\\":"src/"
+        }
+    }
+}
