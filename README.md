@@ -1,3 +1,8 @@
+mysql --user=root --password="" <<-EOSQL
+    CREATE DATABASE IF NOT EXISTS ss;
+    GRANT ALL PRIVILEGES ON \`ss%\`.* TO 'root'@'%';
+EOSQL
+
 # stat-gov
 Библиотека для парсинга данные из stat.gov.kz Получение данных по юридическому лицу или индивидуальному предпринимателю по БИН или ИИН
 
